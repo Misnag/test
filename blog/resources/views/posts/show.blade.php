@@ -6,6 +6,7 @@
         <title>Blog</title>
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="/css/app.css">
     </head>
     <body>
         <h1>Blog Name</h1>
@@ -14,7 +15,6 @@
             <p class='body'>{{ $post->body }}</p>
             <p class='updated_at'>{{ $post->updated_at }}</p>    
         </div>
-        <div class="back">[<a href='/'>back</a></div>
-            {{ $posts->links() }}
+        <div class='back'>[<a href='/'>back</a>]</div>
     </body>
 </html>
